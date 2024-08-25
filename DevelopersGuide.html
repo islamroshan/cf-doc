@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/favicon.ico" rel="icon" />
+  <title>Developer Documentation | Casual Fitness</title>
+  <meta name="description" content="Casual Fitness">
+  <meta name="author" content="spantiklab.com">
+s
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+<style>
+  h4,
+  h3 {
+    margin-bottom: 0;
+  }
+</style>
+
+<body class="box" data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   
+=============================== -->
+  <div id="main-wrapper">
+
+    <!-- Header
+  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span
+              class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- Logo -->
+          <a class="logo ml-md-3" href="index.html" title="Casual Fitness"> <img src="assets/images/logo.png"
+              alt="Casual Fitness" width="100" /> </a>
+
+          <!-- Navbar Toggler -->
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+
+          <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li><a target="_blank" href="https://casualfitness.spantiklab.com">Live Demo</a></li>
+              <li><a target="_blank" href="https://spantiklab.com">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
+  ============================ -->
+    <div id="content" role="main">
+
+
+      <!-- Docs Content
+	============================ -->
+      <div class="idocs-content ml-0">
+        <div class="container">
+
+          <!-- Getting Started
+		============================ -->
+          <section id="idocs_start">
+            <h1>Developers Documentation</h1>
+            <h2>Casual Fitness — Installation guide</h2>
+            <p class="lead">Below we will go through the steps and proccess to install the application on your servers main domain or subdomain,if you are planning to install the app on a subdomain, please checkout the section for installation on sub domain.</p>
+            <hr>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong>Version:</strong> 3.1</li>
+                  <li><strong>Author:</strong> <a href="https://spantiklab.com" target="_blank">SpantikLab</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong class="font-weight-700">Created:</strong> 21 Feb, 2019</li>
+                  <li><strong>Update:</strong> 01 Sep, 2024</li>
+                </ul>
+              </div>
+            </div>
+            <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please
+              feel free to email via <a target="_blank" href="https://spantiklab.com">Item Support Page</a>.</p>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Installation
+		============================ -->
+          <section id="idocs_installation">
+            <h2>Server requirements</h2>
+            <ul>
+              <li>Minimum PHP version greater or equal to 8.2</li>
+              <li>File Uploads feature needs to be enabled!</li>
+              <li>MySQL PDO feature needs to be enabled!</li>
+              <li>fileinfo extension needs to be loaded!</li>
+              <li>ZIP extension needs to be loaded!</li>
+            </ul>
+            <h2>Installation</h2>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="accordion accordion-alterate arrow-right" id="popularTopics">
+                  <div class="card">
+                    <div class="card-header" id="heading1">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse"
+                          data-target="#installation1" aria-expanded="false" aria-controls="installation1">using cPanel,
+                          Plesk or other control panel</a> </h5>
+                    </div>
+                    <div id="installation1" class="collapse" aria-labelledby="heading1" data-parent="#popularTopics">
+                      <div class="card-body">
+                        <h3 class="text-secondary">Step 1</h3>
+                        <p>Download the application zip package from CodeCanyon and log in to cPanel (or other control
+                          panel).</p>
+                        <h3 class="text-secondary">Step 2</h3>
+                        <p>Open <b>File Manager</b>, upload the downloaded zip package to <b>public_html</b> folder (web
+                          root folder of your domain or subdomain), right click on the archive and choose
+                          <b>Extract</b>. </p>
+                        <div class="alert alert-warning mb-4">
+                          <h4>Important</h4>
+                          <p>Please ensure that Show hidden files option is enabled before you extract the files (File
+                            Manager » Settings):</p>
+                          <p><img src="assets/images/cpanel-filemanager-settings.jpg" class="img-fluid"
+                              alt="Responsive image"></p>
+                        </div>
+                        <h3 class="text-secondary">Step 3</h3>
+                        <p>Open <b>MySQL Databases page</b>, create a new MySQL database, create a new user and add the
+                          user to the database selecting <b>All privileges</b> like this:</p>
+                        <p><img src="assets/images/cpanel-mysql-permissions.jpg" class="img-fluid"
+                            alt="Responsive image"></p>
+                        <h3 class="text-secondary">Step 4</h3>
+                        <p>Now, open new tab of the browser and type your domain name in the search field, like this <b>https://my-website.com/setup</b>, ensure to write <b>/setup</b> at the end of your domain.</p>
+                        <h3 class="text-secondary">Step 5</h3>
+                        <p>After completing all the Server Requirements listed above, you will be asked to proceed to next step.</p>
+                        <p><img src="assets/images/Step1.png" class="img-fluid" alt="Responsive image"></p>
+
+                        <h3 class="text-secondary">Step 6</h3>
+                        <p>In the next step you will be asked to provide the Database details, enter the details of the Database you created earlier and press the Submit button.</p>
+                        <p><img src="assets/images/Step2.png" class="img-fluid" alt="Responsive image"></p>
+
+                        <h3 class="text-secondary">Step 7</h3>
+                        <p>After the successful connection with the Database, The Tables will be created inside the database with default settings, later you can change them from the application, under <code>Sidebar/Settings</code>  </p>
+                        <p><img src="assets/images/Step3.png" class="img-fluid" alt="Responsive image"></p>
+
+                        <h3 class="text-secondary">Step 8</h3>
+                        <p>After the above step, a Admin user is created and you will be asked to create a password, the password must be of at least Nine characters, however you can change the details later from inside the application or create more users, after that you will be redirected to the Login Page, enter the credentials you mentioned in the last step and login to the dashboard.</p>
+                        <p><img src="assets/images/Step4.png" class="img-fluid" alt="Responsive image"></p>
+
+                        <div class="alert alert-success">
+                          Now, the application is installed successfully, you can change the application details from the Settings page<br>
+                          <strong>To change settings, goto</strong> <code>Sidebar/Settings</code> <br>
+                          <strong>To create new users, goto </strong> <code>Sidebar/Users</code><br>
+                          <strong>To create new user role, goto </strong> <code>Sidebar/Role</code><br>
+                          <p>Detail guide on the application usage is discussed in the User Guide Documentation, please find the file named <strong>UserGuide.html</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading4">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse"
+                          data-target="#installation4" aria-expanded="false" aria-controls="installation3">Installing under a Sub Domain</a> </h5>
+                    </div>
+                    <div id="installation4" class="collapse" aria-labelledby="heading4" data-parent="#popularTopics">
+                      <div class="card-body">
+                        <p>In case you want to install the application under a sub domain, there is a additional minor step to implement, rest of the process is similar as discussed under section <code>using cPanel, Plesk or other control panel</code> , here the additional step.</p>
+                        <h3 class="text-secondary">Sub Domain Root Directory Path</h3>
+                        <p>When registering a sub domain, make sure the root directory path points to the <code>your-subdomain-directory/public</code></p>
+                        <p><img src="assets/images/subdomain.jpeg" class="img-fluid" alt="Responsive image"></p>
+                        <p>After updating the path, you can continue with the setup process by navigating to the <code>your-subdomain/setup</code> from your desired web browser.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading2">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse"
+                          data-target="#installation2" aria-expanded="false" aria-controls="installation2">using SSH
+                          client</a> </h5>
+                    </div>
+                    <div id="installation2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
+                      <div class="card-body">
+                        <h3 class="text-secondary">Step 1</h3>
+                        <p>Install and configure a LAMP stack (Linux, Apache, MySQL, PHP). If your server comes with
+                          Ubuntu OS you can use <a target="_blank"
+                            href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04">this
+                            guide</a>, for other operating systems find the corresponding manual.</code></p>
+                        <div class="alert alert-warning">
+                          <h3>Important</h3>
+                          <p>Make sure that URL rewrite is enabled. You can do it by running the following command:</p>
+
+                          <kbd class="d-block mb-3">
+                            a2enmod rewrite
+                          </kbd>
+                          <p>Also make sure that <b>.htaccess</b> files are allowed (<b>AllowOverride</b> directive is
+                            set to <b>All</b>) either globally or in the virtual host config file. To enable it on the
+                            virtual host level add the following block to the virtual host config file
+                            (/etc/apache2/sites-enabled/mywebsite.conf):</p>
+<pre>
+&lt;VirtualHost *:80&gt;
+  ...
+
+  &lt;Directory /var/www/mywebsite.com/&gt;
+    Options FollowSymLinks MultiViews
+    AllowOverride All
+    Require all granted
+    Order allow,deny
+    allow from all
+  &lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+</pre>
+                          <p>Please note that you need to restart the Apache service after making configuration changes.
+                          </p>
+                        </div>
+                        <div class="alert alert-info">
+                          <h4>Nginx web server</h4>
+                          <p>If you are deploying your application to a server that is running <b>Nginx</b> web server,
+                            please read <a target="_blank" href="https://laravel.com/docs/8.x/deployment#nginx">this
+                              guide</a>.</p>
+                        </div>
+                        <h3 class="text-secondary">Step 2</h3>
+                        <p>Create a new MySQL database, create a new user and add the user to the database. You can do
+                          so by logging in to MySQL as root and running the following commands:</p>
+                        <kbd class="d-block mb-3">
+                          <kbd class="d-block">CREATE DATABASE cf_db CHARACTER SET utf8 COLLATE
+                            utf8_general_ci;</kbd>
+                          <kbd class="d-block">CREATE USER 'user'@'localhost' IDENTIFIED BY 'password123';</kbd>
+                          <kbd class="d-block">GRANT ALL PRIVILEGES ON user.* TO 'user'@'localhost';</kbd>
+                        </kbd>
+                        <h3 class="text-secondary">Step 3</h3>
+                        <p>Download the application zip package from CodeCanyon, upload it to the web root folder of
+                          your domain and unzip.</p>
+                        <div class="alert alert-warning">
+                          <h4>Important</h4>
+                          <p>Make sure that the user your web server is running under (usually <b>www-data</b>) has read
+                            and write access to the application files and folders. The easiest way to set it up is to
+                            make the <b>www-data</b> user owner of the application files and folders recursively. It can
+                            be done as follows (assuming /var/www/mywebsite.com is the web root folder):</p>
+                          <kbd class="d-block mb-3">
+                            <kbd class="d-block">cd /var/www</kbd>
+                            <kbd class="d-block">chown -R www-data mywebsite.com</kbd>
+                          </kbd>
+                        </div>
+                        <h3 class="text-secondary">Step 4</h3>
+                        <p>Now in root folder of the app open <b>.env</b> file and update the following:</p>
+                        <kbd class="d-block mb-3"><kbd class="d-block">APP_URL=your-url-here</kbd></kbd>
+                        <kbd class="d-block mb-3"><kbd class="d-block">APP_INSTALLED=true</kbd></kbd>
+                        <kbd class="d-block mb-3">
+                          <kbd class="d-block">DB_DATABASE=your-database-name-here</kbd>
+                          <kbd class="d-block">DB_USERNAME=your-database-username-here</kbd>
+                          <kbd class="d-block">DB_PASSWORD=your-database-password-here</kbd>
+                        </kbd>
+                        <h3 class="text-secondary">Step 5</h3>
+                        <p>Now from server open phpmyadmin go to your database. Select import and choose the file
+                          <b>database.sql</b> located in <code>database/database.sql</code></p>
+
+                        <div class="alert alert-success">
+                          Now app is ready to be run on the browser.<br>
+                          <strong>Default Login Credentials:</strong> <br>
+                          <strong>Admin:</strong> Email: admin@gmail.com | Password: 123456789<br>
+                        </div>
+                        <div class="alert alert-warning">
+                           In case you installed the application under a subdomain, make sure that root directory should be pointed at <code>your-subdomain-directory/public</code><br>
+                          <p>Now you can Login into the application, in case any issue try to add complete url like, <code>your-subdomain/login</code></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading3">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse"
+                          data-target="#installation3" aria-expanded="false" aria-controls="installation3">Local Development Setup</a> </h5>
+                    </div>
+                    <div id="installation3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
+                      <div class="card-body">
+                        <p>For local development setup please go through the Laravel offical documentation, the steps are similar. All source files are included, you can customize the application easily as per your need.</p>
+                        <a href="https://laravel.com/docs/11.x/installation#creating-a-laravel-project">Laravel Offical Development Setup Guide</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- FAQ
+		============================ -->
+          <section id="idocs_faq">
+            <h2>FAQ</h2>
+            <p class="text-4">A FAQ is a list of frequently asked questions (FAQs) and answers on a particular topic.
+            </p>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="accordion accordion-alterate arrow-right" id="popularTopics">
+                  <div class="card">
+                    <div class="card-header" id="heading1">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse1"
+                          aria-expanded="false" aria-controls="collapse1">I get "404 Not Found" error during
+                          installation</a> </h5>
+                    </div>
+                    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#popularTopics">
+                      <div class="card-body">
+                        This error occurs if:
+                        <ul>
+                          <li><b>.htaccess</b> files are missing</li>
+                          <li><b>.htaccess</b> files are not allowed (<b>AllowOverride</b> directive is set to
+                            <b>None</b>)</li>
+                          <li>Apache Rewrite module is not enabled</li>
+                        </ul>
+                        Please follow the installation steps again.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading2">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2"
+                          aria-expanded="false" aria-controls="collapse2">I get "406 Not Acceptable" error during
+                          installation</a> </h5>
+                    </div>
+                    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
+                      <div class="card-body">This error occurs if a request has been blocked by Mod Security Apache
+                        module. Please contact your hosting support and ask them to disable Mod Security module.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+          <hr class="divider">
+
+          <!-- Support
+		============================ -->
+          <section id="idocs_support">
+            <h2>Support</h2>
+            <p>If this documentation doesn't answer your questions, So, Please send us Email via <a
+                class="btn btn-primary" target="_blank"
+                href="https://codecanyon.net/item/event-and-human-resource-management-system/32286548?s_rank=1">Item
+                Support Page</a></p>
+            <p> We are located in GMT +5:30 time zone and we answer all questions within 12-24 hours in weekdays. In
+              some rare cases the waiting time can be to 48 hours. (except holiday seasons which might take longer).</p>
+            <div class="alert alert-warning mb-4"><span class="badge badge-danger text-uppercase">Note:</span> While we
+              aim to provide the best support possible, please keep in mind that it only extends to verified buyers and
+              only to issues related to our template like bugs and errors. Custom modifications or third party module
+              implementations are not included.</div>
+            <h4>Don’t forget to Rate this template
+              <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+                class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+                class="fas fa-star text-warning"></i>
+            </h4>
+            <div class="alert alert-success">
+              Please Add your Review (Opinion) for Our application. It would be a great support for us.<br>
+              Go to your <strong>CodeCanyon Profile</strong> > <strong>Downloads Tab</strong> > & then You can Rate &
+              Review for our application.<br>
+              Thank You.
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- More Templates
+		============================ -->
+          <section id="idocs_templates">
+            <h2>More Items</h2>
+            <p class="lead">Checkout Our Below Premium Items</p>
+            <div class="row">
+              <div class="col-4 my-3 text-center">
+                <a target="_blank"
+                  href="https://codecanyon.net/item/medix-the-pharmacy-pos-management-system/20479904"><img
+                    class="img-fluid border" src="assets/images/medix.jpeg" alt="">
+                  <h6 class="pt-2">Medix - The Pharmacy POS & Management System</h6>
+                </a>
+              </div>
+              <div class="col-4 my-3 text-center">
+                <a target="_blank" href="https://codecanyon.net/item/bedana/23050287"><img class="img-fluid border"
+                    src="assets/images/bedana.jpeg" alt="">
+                  <h6 class="pt-2">Bedana - Selling, Purchasing and Invoicing application</h6>
+                </a>
+              </div>
+              <div class="col-4 my-3 text-center">
+                <a target="_blank"
+                  href="https://codecanyon.net/item/event-and-human-resource-management-system/32286548?s_rank=1"><img
+                    class="img-fluid border" src="assets/images/event_star.PNG" alt="">
+                  <h6 class="pt-2">Event Start - Event Management System</h6>
+                </a>
+              </div>
+
+              <div class="col-4 my-3 text-center">
+                <a target="_blank"
+                  href="https://themeforest.net/item/luxus-real-estate-wordpress-theme/35937458"><img
+                    class="img-fluid border" src="assets/images/luxus.jpg" alt="">
+                  <h6 class="pt-2">Luxus - Real Estate WordPress Theme</h6>
+                </a>
+              </div>
+
+              <div class="col-4 my-3 text-center">
+                <a target="_blank"
+                  href="https://codecanyon.net/item/pencil-the-stationary-and-mart-management-system/20566005"><img
+                    class="img-fluid border" src="assets/images/pencil.jpeg" alt="">
+                  <h6 class="pt-2">Pencil - The Retail Store and Distribution Software</h6>
+                </a>
+              </div>
+            </div>
+
+            <p class="text-center"><a class="btn btn-lg btn-primary my-4" target="_blank"
+                href="https://codecanyon.net/user/spantiklab/portfolio">Our Portfolio</a></p>
+
+          </section>
+
+
+        </div>
+      </div>
+
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer
+  ============================ -->
+    <footer id="footer" class="section bg-dark footer-text-light ml-0">
+      <div class="container">
+        <p class="text-2 text-center mb-0">Design &amp; Develop by <a class="btn-link" target="_blank"
+            href="http://www.spantiklab.com">Spantiklab</a></p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript
+============================ -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
